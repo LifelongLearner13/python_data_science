@@ -56,7 +56,7 @@ try:
                 pubs_high[cc] = pub
 
         # Setup the Pygal map
-        wm = World(style=LG)
+        wm = World(style=LCS)
         wm.force_uri_protocol = 'http'
         wm.title = 'Publication of Scientific and Technical Journal\nArticles in 2013, by Country\nData from: The World Bank'
         wm.add('0-100', pubs_low)
